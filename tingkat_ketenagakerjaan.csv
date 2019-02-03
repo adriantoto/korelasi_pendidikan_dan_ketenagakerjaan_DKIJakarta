@@ -1,0 +1,64 @@
+tahun,indikator_angkatan_kerja,satuan,nilai
+2006,"Jumlah Angkatan Kerja","Ribu orang",4121.8
+2007,"Jumlah Angkatan Kerja","Ribu orang",4395.3
+2008,"Jumlah Angkatan Kerja","Ribu orang",4772.5
+2009,"Jumlah Angkatan Kerja","Ribu orang",4687.7
+2010,"Jumlah Angkatan Kerja","Ribu orang",5272.6
+2011,"Jumlah Angkatan Kerja","Ribu orang",5143.8
+2012,"Jumlah Angkatan Kerja","Ribu orang",5368.6
+2006,"Jumlah Penduduk Bekerja","Ribu orang",3531.8
+2007,"Jumlah Penduduk Bekerja","Ribu orang",3842.9
+2008,"Jumlah Penduduk Bekerja","Ribu orang",4192
+2009,"Jumlah Penduduk Bekerja","Ribu orang",4118.4
+2010,"Jumlah Penduduk Bekerja","Ribu orang",4689.8
+2011,"Jumlah Penduduk Bekerja","Ribu orang",4588.4
+2012,"Jumlah Penduduk Bekerja","Ribu orang",4838.6
+2006,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",32
+2007,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",28.2
+2008,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",33.2
+2009,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",42.2
+2010,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",57.7
+2011,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",45.7
+2012,"Jumlah Penduduk Bekerja di Sektor Primer (Pertanian/Pertambangan)","Ribu orang",40.3
+2006,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",731.5
+2007,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",887.7
+2008,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",967.4
+2009,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",870.5
+2010,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",964
+2011,"Jumlah Penduduk Bekerja di Sektor Sekunder (Industri/ Listrik/ Air/ Bangunan)","Ribu orang",869.7
+2006,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",2768.3
+2007,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",2927
+2008,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",3291.4
+2009,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",3205.7
+2010,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",3678.1
+2011,"Jumlah Penduduk Bekerja di Sektor Tersier (Perdagangan/Angkutan/Keuangan/Jasa)","Ribu orang",3673
+2006,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",62.72
+2007,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",64.95
+2008,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",68.68
+2009,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",66.6
+2010,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",67.83
+2011,"Tingkat Partisipasi Angkatan Kerja (TPAK)","Persen",69.36
+2006,"Tingkat Pengangguran Terbuka (TPT)","Persen",14.31
+2007,"Tingkat Pengangguran Terbuka (TPT)","Persen",12.57
+2008,"Tingkat Pengangguran Terbuka (TPT)","Persen",12.16
+2009,"Tingkat Pengangguran Terbuka (TPT)","Persen",12.15
+2010,"Tingkat Pengangguran Terbuka (TPT)","Persen",11.05
+2011,"Tingkat Pengangguran Terbuka (TPT)","Persen",10.8
+2006,"Pekerja Formal","Persen",67.36
+2007,"Pekerja Formal","Persen",64.82
+2008,"Pekerja Formal","Persen",61.33
+2009,"Pekerja Formal","Persen",61.92
+2010,"Pekerja Formal","Persen",62.09
+2011,"Pekerja Formal","Persen",69.11
+2006,"Pekerja Informal","Persen",32.64
+2007,"Pekerja Informal","Persen",35.18
+2008,"Pekerja Informal","Persen",38.67
+2009,"Pekerja Informal","Persen",38.08
+2010,"Pekerja Informal","Persen",37.91
+2011,"Pekerja Informal","Persen",30.89
+2006,"Under Employment","Persen",9.53
+2007,"Under Employment","Persen",9.83
+2008,"Under Employment","Persen",10.73
+2009,"Under Employment","Persen",10.14
+2010,"Under Employment","Persen",8.64
+2011,"Under Employment","Persen",10.96
