@@ -15,20 +15,18 @@ TPAK$indikator_angkatan_kerja <- NULL
 TPAK$satuan <- NULL
 #rename columns
 colnames(lama_sekolah)[2] <- 'rata-rata lama sekolah'
-colnames(TPAK) <- 'tingkat partisipasi angkatan kerja'
+colnames(TPAK)[1] <- 'tahun'
+colnames(TPAK)[2] <- 'tingkat partisipasi angkatan kerja'
 #merge columns
 dataframe_simpleLinearRegression <-  merge(x=lama_sekolah, y=TPAK, by="tahun", all.y = TRUE)
-#rename columns
-colnames(dataframe_simpleLinearRegression)[2] <- 'rata-rata lama sekolah (tahun)'
-colnames(dataframe_simpleLinearRegression)[3] <- 'tingkat partisipasi angkatan kerja (%)'
 
 # Because the dataset is small. We do not have to split the dataset
 
 # Fitting the regression model to the dataset
 #Create your regressor
 set.seed(123)
-regressor = lm(formula= dataframe_simpleLinearRegression$`tingkat partisipasi angkatan kerja (%)` ~ 
-                        dataframe_simpleLinearRegression$`rata-rata lama sekolah (tahun)`,
+regressor = lm(formula= dataframe_simpleLinearRegression$`tingkat partisipasi angkatan kerja` ~ 
+                        dataframe_simpleLinearRegression$`rata-rata lama sekolah`,
               data= dataframe_simpleLinearRegression)
 
 # Predicting a new result 
@@ -36,10 +34,10 @@ regressor = lm(formula= dataframe_simpleLinearRegression$`tingkat partisipasi an
 # Visualising the trained data
 library(ggplot2)
 ggplot() + 
-  geom_point(aes(x = dataframe_simpleLinearRegression$`rata-rata lama sekolah (tahun)`,
-                 y = dataframe_simpleLinearRegression$`tingkat partisipasi angkatan kerja (%)`),
+  geom_point(aes(x = dataframe_simpleLinearRegression$`rata-rata lama sekolah`,
+                 y = dataframe_simpleLinearRegression$`tingkat partisipasi angkatan kerja`),
               colour = 'red') +
-  geom_line(aes(x = dataframe_simpleLinearRegression$`rata-rata lama sekolah (tahun)`,
+  geom_line(aes(x = dataframe_simpleLinearRegression$`rata-rata lama sekolah`,
                 y = predict(regressor, newdata = dataframe_simpleLinearRegression)),
             colour = 'blue') +
   ggtitle('Korelasi antara Rata-Rata Lama Sekolah & Tingkat Partisipasi Angkatan Kerja') +
